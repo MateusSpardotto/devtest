@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from Elevators.api.elevator_api import router as api_router
+from elevators.api.elevator_api import router as api_router
 
 app = FastAPI()
 

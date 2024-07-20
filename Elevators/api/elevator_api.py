@@ -2,9 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
 
-from Elevators.infra import infraDatabase
-from Elevators.models import demandCreated
-from Elevators.sqlDocuments.demand import Demand
+from elevators.infra import infraDatabase
+from elevators.models import demandCreated
+from elevators.sqlDocuments.demand import Demand
 
 
 router = APIRouter()
