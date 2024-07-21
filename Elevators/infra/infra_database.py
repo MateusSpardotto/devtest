@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.engine import URL
-from elevators.sqlDocuments.demand import Base
+from elevators.sql_documents.demand import Base
 
 
 database_url = URL.create(

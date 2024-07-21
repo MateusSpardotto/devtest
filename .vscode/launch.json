@@ -7,7 +7,7 @@
         "request": "launch",
         "module": "uvicorn",
         "args": [
-          "Elevators.main:app",
+          "elevators.main:app",
           "--reload",
           "--port", "8000"
         ],
