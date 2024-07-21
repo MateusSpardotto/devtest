@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from elevators.api.elevator_api import router as api_router
 
-app = FastAPI()
 
+app = FastAPI()
 app.include_router(api_router)
 
 if __name__ == "__main__":
