@@ -1,9 +1,8 @@
 from pydantic import BaseModel
-from datetime import datetime
 
 
-class DemandModel(BaseModel):
-    DemandRequest: datetime
+class DemandResponseModel(BaseModel):
+    DemandRequest: str
     DemandedFloor: str
     RequisitedFloor: str
     RestingFloor: str
